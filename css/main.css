@@ -1,0 +1,311 @@
+* {
+	
+	box-sizing: border-box;
+	
+}
+
+
+html {
+	
+	background-color: white;
+	
+
+}
+
+body {
+	
+	background-color: transparent;
+	
+	
+}
+
+
+
+
+header {
+	
+	font-family: "montserrat", sans-serif;
+	margin-top: 50px;	
+	z-index: 99999;
+	position: fixed;
+}
+
+.firstnavigation {
+	position: fixed;
+	left: 50px;	
+}
+
+header
+.firstnavigation
+li {
+	text-transform: uppercase;
+	padding-left: 10px;
+	padding-right: 10px;
+	letter-spacing: 1px;	
+	
+}
+
+header
+.firstnavigation
+li
+a {
+	
+	text-decoration: none;
+	z-index: 99999;
+}
+
+/* Fixed Navigation Link Styles */
+
+/* unvisited link */
+header
+a:link {
+    color: grey;
+}
+
+/* visited link */
+header
+a:visited {
+    color: grey;
+}
+
+/* mouse over link */
+header
+a:hover {
+    color: teal;
+}
+
+/* selected link */
+header
+a:active {
+    color: teal;
+}
+
+header
+ul#cssmenu
+.active a {
+	
+	color: teal;
+}
+
+
+/* Fixed Navigation Link Styles End */
+
+/* Logo Styling */
+.logo {	
+	margin-left: auto;
+	margin-right: auto;
+	height: 420px;
+	width: 300px;	
+	top: 100px;
+}
+.logobox {
+	border: 6px solid gray;
+	padding-top: 40px;	
+	color: gray;
+	width: 300px;
+	height: 390px;
+	font-family: "otama.ep", "didot", serif;	
+}
+.logobox
+li {	
+	list-style-type: none;
+	font-size: 90px;
+	line-height: 95px;
+	letter-spacing: 7px;	
+}
+.logofooter {	
+	width: 300px;
+	height: 50px;
+	color: gray;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	font-family: "montserrat", "helvetica", sans-serif;
+	text-align: center;	
+}	
+.logobox
+li {
+	
+	list-style-type: none;
+	font-size: 90px;
+	line-height: 95px;
+	letter-spacing: 7px;	
+}
+.logofooter {	
+	width: 300px;
+	height: 50px;
+	color: gray;
+	font-size: 35px;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	font-family: "montserrat", "helvetica", sans-serif;
+	text-align: center;	
+}
+
+main
+ul {	
+	text-align: center;	
+}
+
+
+header
+.firstnavigation
+li {
+	
+
+	list-style-type: none;
+	letter-spacing: 1px;
+	
+	
+}
+
+
+/* unvisited link */
+header
+a:link {
+    color: gray;
+}
+
+/* visited link */
+header
+a:visited {
+    color: gray;
+}
+
+/* mouse over link */
+header
+a:hover {
+    color: teal;
+}
+
+/* selected link */
+header
+a:active {
+    color: gray;
+}
+
+/* footer */
+
+footer {
+		top: 20px;	
+	display: block;
+}
+
+
+footer,
+.socialnavigation
+ {
+
+	top: 30px;
+	
+}
+
+footer
+.socialnavigation
+{
+	
+	width: 150px;
+	position: absolute;
+	left: 500px;
+}
+footer
+.socialnavigation
+li {
+	
+	display: inline-block;
+	background-color: gray;
+	height: 30px;
+	width: 30px;
+	border-radius: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+	overflow: hidden;
+	
+}
+
+footer
+.socialnavigation
+li 
+a {
+	
+	height: 30px;
+	width: 30px;
+	
+}
+
+/* Table Styling */
+
+#content {
+	
+	position: absolute;
+	top: 0;
+	left: 1800px;
+	width: auto;
+	z-index: -1;
+	min-height: 900px;
+}
+
+/* Removes default table styling */
+#content
+td {	
+	border-bottom: transparent;		
+}
+/* Removes default table styling */
+
+
+.section
+h2 {
+	font-family: "montserrat", sans-serif;
+	color: gray;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+
+
+.section
+article {
+	
+	width: 400px;
+	
+}
+
+.section {
+	
+	color: gray;
+	width: 1800px;
+	height: 100%;
+	padding-left: 200px;
+	margin-left: 700px;
+	padding-top: 40px;
+}
+.section img {
+	
+	max-height: 400px;
+}
+.section li {
+	list-style-type: none;
+}
+.section figure {
+	
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+#sixth
+article {
+	
+	padding-top: 100px;
+	
+}
+
+
+
+
+/* footer end */
