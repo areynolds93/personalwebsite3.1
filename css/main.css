@@ -8,7 +8,7 @@
 html {
 	
 	background-color: white;
-	
+	max-height: 700px;
 
 }
 
@@ -24,25 +24,33 @@ body {
 
 header {
 	
-	font-family: "montserrat", sans-serif;
-	margin-top: 50px;	
+	font-family: "Akzidenz-Grotesk BQ", sans-serif;	
 	z-index: 99999;
 	position: fixed;
+	
 }
 
 .firstnavigation {
 	position: fixed;
-	left: 50px;	
+	left: 0px;	
+	padding-left: 30px;
+}
+
+#cssmenu {
+	background-color: white;
+	height: 100%;
+	border-top: 100px solid white;
+	
+	
 }
 
 header
 .firstnavigation
 li {
 	text-transform: uppercase;
-	padding-left: 10px;
 	padding-right: 10px;
 	letter-spacing: 1px;	
-	
+	padding-left: 10px;
 }
 
 header
@@ -71,20 +79,20 @@ a:visited {
 /* mouse over link */
 header
 a:hover {
-    color: teal;
+    color: #ff35b5;
 }
 
 /* selected link */
 header
 a:active {
-    color: teal;
+   color: #ff35b5;
 }
 
 header
 ul#cssmenu
 .active a {
 	
-	color: teal;
+	color: #ff35b5;
 }
 
 
@@ -96,15 +104,17 @@ ul#cssmenu
 	margin-right: auto;
 	height: 420px;
 	width: 300px;	
-	top: 100px;
+	/* top: 100px; */
 }
 .logobox {
 	border: 6px solid gray;
+	background-color: gray;
 	padding-top: 40px;	
-	color: gray;
+	color: white;
 	width: 300px;
 	height: 390px;
-	font-family: "otama.ep", "didot", serif;	
+	font-family: "Akzidenz-Grotesk BQ", sans-serif;
+	font-weight: bold;	
 }
 .logobox
 li {	
@@ -175,7 +185,7 @@ a:visited {
 /* mouse over link */
 header
 a:hover {
-    color: teal;
+    color: #ff35b5;
 }
 
 /* selected link */
@@ -189,8 +199,15 @@ a:active {
 footer {
 		top: 20px;	
 	display: block;
+	
 }
 
+/* link hover */
+.section
+a:hover {
+	color: #ff35b5;
+}
+/* link hover */
 
 footer,
 .socialnavigation
@@ -204,7 +221,7 @@ footer
 .socialnavigation
 {
 	
-	width: 150px;
+	width: 250px;
 	position: absolute;
 	left: 500px;
 }
@@ -213,15 +230,16 @@ footer
 li {
 	
 	display: inline-block;
-	background-color: gray;
-	height: 30px;
-	width: 30px;
-	border-radius: 15px;
+	background-color: transparent;
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
 	margin-left: 5px;
 	margin-right: 5px;
 	overflow: hidden;
 	
 }
+
 
 footer
 .socialnavigation
@@ -237,28 +255,30 @@ a {
 
 #content {
 	
-	position: absolute;
 	top: 0;
 	left: 1800px;
 	width: auto;
 	z-index: -1;
-	min-height: 900px;
+	
 }
 
 /* Removes default table styling */
 #content
 td {	
-	border-bottom: transparent;		
+	border-bottom: transparent;	
 }
 /* Removes default table styling */
 
 
 .section
 h2 {
-	font-family: "montserrat", sans-serif;
+	font-family: "Akzidenz-Grotesk BQ", sans-serif;
+	font-weight: bold;
+	margin-bottom: 10px;
 	color: gray;
 	text-align: left;
 	margin-bottom: 0;
+	border-bottom: 3px solid;
 }
 
 
@@ -274,14 +294,16 @@ article {
 	
 	color: gray;
 	width: 1800px;
-	height: 100%;
-	padding-left: 300px;
-	margin-left: 700px;
-	padding-top: 40px;
+	min-height: 500px;
+	padding-left: 200px;
+	margin-left: 100px;
+	/* padding-top: 40px; */
 }
 .section img {
 	
 	max-height: 400px;
+	border: 1px solid grey;
+	/* box-shadow: 5px 5px 2px #888888; */
 }
 .section li {
 	list-style-type: none;
@@ -290,19 +312,54 @@ article {
 	
 	display: inline-block;
 }
+#first {
+	width: 600px;
+	
+}
 
+#second {
+	
+	width: 800px;
+	}
 
+#third {
+	width: 1200px;
+}
+#fourth {
+	width: 2000px;
+}
 
+#fifth {
+	width: 800px;
+}
 
+#sixth {
+	width: 800px;
+	
+}
+#seventh {
+	width: 800px;
+}
 
-
-
-
+#eight {
+	width: 3000px;
+	
+}
 #sixth
 article {
 	
 	padding-top: 100px;
 	
+}
+
+/* form styling */
+#messagebox {
+	width: 500px;
+	height: 200px;
+}
+
+#messagesubmit {
+	margin-top: 10px;	
 }
 
 

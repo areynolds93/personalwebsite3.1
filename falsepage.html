@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Alexander Reynolds</title>
+	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="css/fonts/stylesheet.css" type="text/css">
+	<link rel="stylesheet" href="css/blueimp-gallery.css">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<div id="first" class="main container row">
+	<header>
+		<ul id="cssmenu" class="nav firstnavigation row" title="main navigation">
+			<li><a class="scroll" href="#first">Website Under Construction</a></li>
+		</ul> <!-- nav list end -->
+	</header>
+
+	<main class="container row">
+		<div class="logo container" title="logo">
+			<div class="logobox row">
+				<ul class="logoboxname">
+					<li>ALE</li>
+					<li>XAN</li>
+					<li>DER</li>
+				</ul>
+			</div> <!-- logobox end -->
+		<div class="logofooter">
+		<p>Reynolds</p>
+		</div> <!-- logofooter end -->
+		</div> <!-- logo end -->
+		
+		
+
+	
+	<footer class="lastfooter container row" title="first page footer">
+	
+	
+			
+			<ul class="socialnavigation" title="social navigation">
+				<li><a href="#">Twitter</a></li>
+				<li><a href="#">Tumblr</a></li>
+				<li><a href="#">Instagram</a></li>
+			</ul>
+			
+	</footer>
+	</main>	
+	
+	
+	</div> <!-- first end -->
+	
+		
+	<!-- slow scroll -->
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script>
+      $("header a.scroll").click(function(event){
+        event.preventDefault();
+        $('html,body').animate({scrollLeft:$(this.hash).offset().left}, 500);
+      });
+   </script>
+   <!-- slow scroll -->
+   
+   <!--  highlight active a tag -->
+   		<script>
+   		
+   		$(document).ready(function() {
+    $("#cssmenu li").on("click", function() {
+        $("ul#cssmenu li").removeClass("active");
+        $(this).addClass("active");
+    });
+});
+   		</script>
+   <!--  highlight active a tag -->
+	
+	
+	<!-- horizontal scrolling -->
+	<script src="js/blueimp-gallery.min.js"></script>
+	<script src="js/blueimp-gallery-fullscreen.js"></script>
+	<!-- slideshow javascript -->
+
+	<!-- slideshow javascript end -->
+</body>
+
+</html>
