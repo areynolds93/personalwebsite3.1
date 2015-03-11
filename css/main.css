@@ -297,6 +297,7 @@ article {
 	min-height: 500px;
 	padding-left: 200px;
 	margin-left: 100px;
+	padding: 0 0 0 300px;
 	/* padding-top: 40px; */
 }
 .section img {
