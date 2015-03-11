@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Alexander Reynolds</title>
+	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="css/fonts/stylesheet.css" type="text/css">
+	<link rel="stylesheet" href="css/blueimp-gallery.css">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+</head>
+
+
+<body>
+	
+	
+		<div id="nav" class="main container">
+		<header>
+			<ul id="cssmenu" class="nav firstnavigation row" title="main navigation">
+				<li><a class="scroll" href="#first">Home</a></li>
+				<li><a class="scroll" href="#second">About</a></li>
+				<li><a class="scroll" href="#third">Work</a>
+				<li><a class="scroll" href="#third">Paintings</a></li>
+				<li><a class="scroll" href="#fourth">Design</a></li>
+				<li><a class="scroll" href="#fifth">CV</a></li>
+				<li><a class="scroll" href="#sixth">News</a></li>
+				<li><a class="scroll" href="#seventh">Contact</a></li>
+			</ul> <!-- nav list end -->
+		</header>
+	</div>
+
+
+	<main class="container">
+	
+	
+		<table id="content" class="">
+						<tr>
+							<td>
+								<div id="first" class="main container">
+								<div class="logo container" title="logo">
+									<div class="logobox row">
+										<ul class="logoboxname">
+											<li>ALE</li>
+											<li>XAN</li>
+											<li>DER</li>
+										</ul>
+									</div> <!-- logobox end -->
+												<div class="logofooter">
+														<p>Reynolds</p>
+												</div> <!-- logofooter end -->
+								</div> <!-- logo end -->
+								</div>
+							</td>
+	
+					
+					
+		
+							<td>
+								<div class="section" id="second">
+						
+									<h2>About</h2>
+									<strong>Bio</strong>
+										<article>
+											<p>Born in 1993 in Dayton, Ohio.
+												 Alexander is an undergrad at
+												 the Maryland Institute College
+												 of Art soon to complete his BFA
+												 in Painting.</p>
+										
+										<strong>Statement</strong>
+										 Alexander's most recent works investigate
+										 the narratives and ranges of emotions that
+										 can potentially be experienced during the
+										 confines of a romantic affair.
+										 These issues are expressed through
+										 (but not limited to) large oil paintings and drawings.
+										 These medium allows him to have complete
+										 control of how the image is constructed 
+										 and how the content is perceived, which leaves a lot 
+										 of room for ambiguity and androgyny.
+										 The landscape is used a metaphor to 
+										 set the stage for these emotionally 
+										 charged situations while the figures
+										 are enveloped within it.These paintings are created so personal
+										 nostalgic events can be re-experienced in a more beautiful
+										 way regardless of how untruthful or exaggerated the image ultimately is. 
+										</article> 
+								
+								
+								
+									
+								</div> <!-- second section end -->
+							</td>
+						
+						<td>
+							<div class="section" id="third">
+									<div class="sectioninfo">
+									
+									<h2>Work</h2>
+									<strong>Paintings</strong>
+									</div>
+									<a href="#"><figure><img src="img/recentworks.jpg" alt="Recent Works"> <figcaption>Recent Works
+										</figcaption></figure></a>
+									<a href="#"><figure><img src="img/drawing01.png" alt="Drawings"> <figcaption>Drawings</figcaption> </figure></a>
+						
+								</div> <!-- third section end -->
+						</td>
+						
+						<td>			
+							<div class="section" id="fourth">
+								<div class="sectioninfo">
+									<h2>Work</h2>
+									<strong>Design</strong>
+								</div>
+								
+								<a href="#"><figure><img src="img/ball01.png" alt="Graphic Design"><figcaption>Graphic Design
+								</figcaption></figure></a>
+								<a href="#"><figure><img src="img/web01.png" alt="Web"><figcaption>Web</figcaption></figure></a>
+								<a href="#"><figure><img src="img/process.png" alt="Web"><figcaption>Process</figcaption></figure>
+								</a>
+									
+							</div> <!-- fourth section end -->
+						</td>
+							
+							<td>
+						<div class="section" id="fifth">
+							<div class="sectioninfo">
+								<h2>CV</h2>
+								<strong>Resume & Accomplishments</strong>
+							</div>
+								<article>
+									<p><a href="https://www.dropbox.com/s/xhhf4mkw12ydw3n/resume02_2015.pdf?dl=0">Click To Download Resume</a></p>
+									<strong>Abridged Resume</strong>
+									
+									<p>BFA In Fine Arts. Painting Major<br>
+									Emphasis in Graphic / Web Design<br>
+									Maryland Institute College of Art. <br>
+									<p>
+						
+								 </article> 
+							
+						</div> <!-- fifth section end -->
+						</td>
+				
+						<td>
+							<div class="section" id="sixth" title="news">
+								<div class="sectioninfo">
+									<h2>News</h2>
+									<strong>Recent or Upcoming Events</strong>
+								</div>
+							
+								<ul>
+									<li>No Upcoming Events. Check Back later.</li>
+								</ul>
+					
+							</div> <!-- sixth section end -->
+						</td>
+						
+						<!-- seventh section -->
+						<td>
+							<div class="section" id="seventh" title="contact">
+								<div class="sectioninfo">
+									<h2>Contact</h2>
+									<strong>via email</strong>
+								</div>
+								<p>Interested in purchasing artwork or hiring me?</p>
+								<p>hey.alexreynolds@gmail.com</p>
+							</div> <!-- seventh section end -->
+						</td>
+					</tr>
+		
+	</table> <!-- End of table -->
+	
+</main>
+	
+
+	
+	
+	
+	
+	
+	
+	
+	<!-- slow scroll -->
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script>
+      $("header a.scroll").click(function(event){
+        event.preventDefault();
+        $('html,body').animate({scrollLeft:$(this.hash).offset().left}, 500);
+      });
+   </script>
+   <!-- slow scroll -->
+   
+   
+   
+   <!--  highlight active a tag -->
+   		<script>
+   		
+   		$(document).ready(function() {
+    $("#cssmenu li").on("click", function() {
+        $("ul#cssmenu li").removeClass("active");
+        $(this).addClass("active");
+    });
+});
+   		</script>
+   <!--  highlight active a tag -->
+	
+	
+	<!-- horizontal scrolling -->
+	<script src="js/blueimp-gallery.min.js"></script>
+	<script src="js/blueimp-gallery-fullscreen.js"></script>
+	<!-- horizontal scrolling end -->
+	
+	
+</body>
+</html>
