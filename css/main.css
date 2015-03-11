@@ -342,7 +342,9 @@ article {
 }
 
 #eight {
-	width: 3000px;
+	min-width: 7000px;
+	overflow-x: visible;
+	
 	
 }
 #sixth
@@ -360,6 +362,11 @@ article {
 
 #messagesubmit {
 	margin-top: 10px;	
+}
+
+.paintingwork {
+	
+	padding: 0 0 0 300px;
 }
 
 
