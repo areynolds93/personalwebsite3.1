@@ -80,6 +80,7 @@ a:visited {
 header
 a:hover {
     color: #ff35b5;
+    
 }
 
 /* selected link */
@@ -174,6 +175,7 @@ li {
 header
 a:link {
     color: gray;
+    text-decoration: underline;
 }
 
 /* visited link */
@@ -206,7 +208,9 @@ footer {
 .section
 a:hover {
 	color: #ff35b5;
+		
 }
+
 /* link hover */
 
 footer,
@@ -289,7 +293,10 @@ article {
 	width: 400px;
 	
 }
-
+figcaption {
+	
+	text-decoration: underline;
+}
 .section {
 	
 	color: gray;
@@ -327,7 +334,7 @@ article {
 	width: 1500px;
 }
 #fourth {
-	width: 2000px;
+	width: 1000px;
 }
 
 #fifth {
