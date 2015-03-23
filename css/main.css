@@ -343,10 +343,14 @@ article {
 }
 
 #eight {
-	min-width: 7000px;
+	min-width: 8500px;
 	overflow-x: visible;
 }
 
+#statusupdate
+img {
+	border: none;
+}
 #eight
 h2 {
 	
@@ -381,7 +385,20 @@ article {
 	padding: 0 0 0 300px;
 }
 
+#statusupdate {
+	
+	width: 800px;
+}
 
+#UIDesign {
+	
+	width: 3000px;
+}
+
+#Web {
+	
+	width: 6000px;
+}
 
 
 /* footer end */
